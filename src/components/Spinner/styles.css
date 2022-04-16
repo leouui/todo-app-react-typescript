@@ -1,0 +1,16 @@
+.spinner {
+    font-size: inherit;
+    width: 1.5em;
+    height: 1.5em;
+    border-left: .3em solid transparent;
+    border-radius:50%;
+    animation: spinner 0.3s linear infinite;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

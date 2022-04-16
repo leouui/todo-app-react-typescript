@@ -1,0 +1,33 @@
+.task-container {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.task__item {
+    gap: 30px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+.task-loading {
+    color: var(--secondary-color);
+}
+.task__title {
+    font-size: 22px;
+}
+.task__desc {
+    font-size: 14px;
+}
+.task__tools{
+    gap: 8px;
+}
+
+.task__title,.task__desc{
+    transition: .3s;
+    user-select: none;
+}
+
+.task__item--completed .task__title,.task__item--completed .task__desc{
+    text-decoration: line-through;
+    opacity: .3;
+}

@@ -1,0 +1,16 @@
+.tasks-actions {
+    gap: 10px;
+}
+.greeting {
+    font-size: 28px;
+}
+@media screen and (max-width:500px) {
+    .greeting {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:450px) {
+    .greeting {
+        font-size: 18px;
+    }    
+}

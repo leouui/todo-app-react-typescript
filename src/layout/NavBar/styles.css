@@ -1,0 +1,23 @@
+.tasks-navbar {
+    justify-content: space-between;
+    margin: 25px 0;
+    gap: 10px;
+}
+.tasks-select {
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width:450px) {
+    .tasks-navbar {
+        flex-wrap: wrap;
+        margin: 15px 0;
+    }
+    .tasks-navbar > * {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+}
+
+.btn-primary {
+    background-color: var(--tertiary-color);
+    color: #fff;
+}
+.btn-danger {
+    background-color: var(--danger-color);
+    color: #fff;
+    font-weight: bold;
+}
+.btn-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+.btn:disabled {
+    opacity: .6;
+}
+
+@media screen and (max-width: 450px) {
+    .btn {
+        font-size: 12px;
+    }
+    .google-icon{
+        width: 15px;
+    }
+}
