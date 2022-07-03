@@ -24,6 +24,7 @@ const TaskForm = ({submitAction,btnContent,initialValues} : props) => {
                 (data) => !data.length && "The task needs a title!",
                 (data) => data.length > 20 && "Title should be less than 30 characters"
             ],
+            desc:(data) => data.length > 50 && "The Description should be less than 50 characters"
         },
         defaultValues:initialValues
     })
